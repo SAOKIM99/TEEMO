@@ -15,6 +15,10 @@ void TeemoMove::begin() {
   setServo(4, 90);
 }
 
+void TeemoMove::defaul() {
+  servoNow(1, 2, 3, 4, 90, 90, 90, 90, 5);
+}
+
 void TeemoMove::setServo(uint8_t pSevor, uint8_t _angle) {
   switch (pSevor)
   {

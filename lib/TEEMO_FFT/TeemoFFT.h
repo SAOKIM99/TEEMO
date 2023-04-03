@@ -4,7 +4,7 @@
 #include <arduinoFFT.h>
 
 #define SAMPLES             64             //Must be a power of 2
-#define SAMPLING_FREQUENCY  5000 //Hz, must be less than 10000 due to ADC
+#define SAMPLING_FREQUENCY  1000 //Hz, must be less than 10000 due to ADC
 
 class TeemoFFT
 {

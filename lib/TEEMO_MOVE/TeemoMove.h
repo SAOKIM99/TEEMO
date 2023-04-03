@@ -32,6 +32,7 @@ class TeemoMove
 		void servoNow(uint8_t pSevor1, uint8_t pSevor2, uint8_t _angle1, uint8_t _angle2, uint16_t _speed);
 		void servoNow(uint8_t pSevor1, uint8_t pSevor2, uint8_t pSevor3, uint8_t _angle1, uint8_t _angle2, uint8_t _angle3, uint16_t _speed);
 		void servoNow(uint8_t pSevor1, uint8_t pSevor2, uint8_t pSevor3, uint8_t pSevor4, uint8_t _angle1, uint8_t _angle2, uint8_t _angle3, uint8_t _angle4, uint16_t _speed);
+		void defaul();
 		void forward(uint8_t number, uint8_t _speed);
 		void backward(uint8_t number, uint8_t _speed);
 		void turnRigh(uint8_t number, uint8_t _speed);
